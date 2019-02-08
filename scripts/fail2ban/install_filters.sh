@@ -2,6 +2,7 @@
 # this is for linux / ubuntu tested only at momnet
 # always install fail2ban from source!!
 # rewrite your path if needed
+# https://www.us-cert.gov/ncas/alerts/TA13-088A
 
 su bitcoin
 cat >>/home/bitcoin/.bitcoin/bitcoin.conf <<\EOF
