@@ -42,10 +42,10 @@ maxretry = 0
 bantime  = 1w
 findtime = 1d
 
-[bitcoind_banned]
+[bitcoin_banned]
 enabled = true
 port    = 8333
-filter = bitcoind_banned
+filter = bitcoin_banned
 logpath = /home/bitcoin/.bitcoin/debug.log
 maxretry = 0
 bantime  = 1w
